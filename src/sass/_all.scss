@@ -2,17 +2,21 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    font-family: Roboto;
+    font-family: Bitter;
     font-weight: 400;
+    font-size: 1rem;
 }
 
 body,
 html {
-    height: 100%;
     overflow-x: hidden;
 }
 
@@ -34,4 +38,34 @@ a {
 
 footer {
     flex: 0 0 auto;
+}
+
+.title {
+    font-weight: 700;
+    &_big {
+        font-size: rem(40);
+    }
+    &_subtitle {
+        font-size: rem(20);
+    }
+    &_light {
+        font-size: rem(30);
+        font-weight: 400;
+    }
+}
+
+.text {
+    &_big {
+        font-size: rem(25);
+    }
+    &_medium {
+        font-size: rem(20);
+    }
+    &_light {
+        font-size: rem(16);
+    }
+}
+
+.font-bold {
+    font-weight: bold;
 }
