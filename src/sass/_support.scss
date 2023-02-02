@@ -70,12 +70,22 @@
 
 // Vars
 
+$braun: #005B24;
+$milk: #F5F5F5;
+
 // Путь к спрайту для конкатенации
 
 $sprite: "../svg/dest/stack/sprite.svg#";
 
 
 // Mixins
+
+@mixin reset-underline {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
 
 @mixin title {
   font-family: Oswald;

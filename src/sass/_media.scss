@@ -1,0 +1,39 @@
+@media (max-width:1400px){
+    html {
+        font-size: 16px;
+    }
+
+    .text {
+        &_medium {
+            font-size: 18px;
+        }
+
+        &_big {
+            font-size: 22px;
+        }
+    }
+
+    .header {
+        &__skill {
+            padding: 0px 30px 35px;
+        }
+    }
+}
+
+@media (max-width:1200px){
+    .text {
+        &_medium {
+            font-size: 16px;
+        }
+        &_big {
+            font-size: 20px;
+        }
+    }
+
+    .header {
+        &__skill {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
+}

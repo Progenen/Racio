@@ -13,13 +13,18 @@
         <div class="content">
             <header class="header">
                 <div class="container">
-                    <div class="row">
+                    <div class="row align-items-start">
+                        <div class="col-lg-1 d-block d-md-none">
+                            <div class="header__mob-menu">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
                         <div class="col-lg-2">
                             <a href="#" class="header__logo">
                                 <img src="images/logo.png" alt="" class="header__logo-img">
                             </a>
                         </div>
-                        <div class="col-lg-5 text-center">
+                        <div class="col-lg-5 text-center d-flex justify-content-center">
                             <nav class="header__menu">
                                 <ul class="header__menu-list">
                                     <li class="header__menu-item active">
@@ -45,13 +50,44 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 align-items-start">
                             <div class="header__skill">
-                                <div class="header__skill-text text-medium">
+                                <div class="header__skill-text text_medium">
                                     Опыт работы в сфере<br/> охраны труда
                                 </div>
                                 <div class="header__skill-old text_big">
                                     <b>22 года 11 месяцев</b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="header__contacts">
+                                <a href="#" class="header__contacts-phone d-flex align-items-center text_medium">
+                                    <svg class="header__contacts-phone-icon">
+                                        <use src="svg/dest/stack/sprite.svg#phone" />
+                                    </svg>
+                                    <b class="text_medium">
+                                        +7 (8172) 21-00-17
+                                    </b>
+                                </a>
+                                <div class="header__contacts-city">
+                                    <div class="header__contacts-city-title text_medium">
+                                        Вологда
+                                        <svg class="header__contacts-city-arrow">
+                                            <use src="svg/dest/stack/sprite.svg/#arrow-down" />
+                                        </svg>
+                                    </div>
+                                    <ul class="header__contacts-city-list">
+                                        <li class="header__contacts-city-list-item">
+                                            Москва
+                                        </li>
+                                        <li class="header__contacts-city-list-item">
+                                            Калининград
+                                        </li>
+                                        <li class="header__contacts-city-list-item">
+                                            Санкт-петербург
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -62,22 +98,6 @@
 <footer class="footer">
 
 </footer>
-</div>
-
-<div class="mobile-menu" data-labelledby="mobMenu">
-    <div class="mobile-menu__header">
-        <div class="mobile-menu__back">
-            <svg class="mobile-menu__back-icon">
-                <use xlink:href='svg/dest/stack/sprite.svg#arrow-left'></use>
-            </svg>
-            Назад
-        </div>
-        <div class="mobile-menu__close">
-            <svg class="mobile-menu__close-icon">
-                <use xlink:href='svg/dest/stack/sprite.svg#plus'></use>
-            </svg>
-        </div>
-    </div>
 </div>
 
 <script src="JS/bundle.js"></script>

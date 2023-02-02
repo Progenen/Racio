@@ -69,3 +69,12 @@ footer {
 .font-bold {
     font-weight: bold;
 }
+
+.main-block {
+    background-color: $milk;
+    border-radius: 50px 0px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
